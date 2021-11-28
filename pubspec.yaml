@@ -1,0 +1,36 @@
+name: exshoppie_app
+description: An ecommerce application
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  ionicons: ^0.1.2
+  get_storage: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Bebas Neue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Black.otf
+        - asset: assets/fonts/Poppins-Bold.otf
+        - asset: assets/fonts/Poppins-Medium.otf
+        - asset: assets/fonts/Poppins-SemiBold.otf
+        - asset: assets/fonts/Poppins-Regular.otf
